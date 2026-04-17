@@ -1,0 +1,29 @@
+/* css 리셋 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+}
+body {
+  overflow-x: hidden;
+  font-size: 16px;
+  color: black;
+  background-color: #fff;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
