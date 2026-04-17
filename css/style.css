@@ -1,3 +1,101 @@
+/* 디자인 토큰 */
+:root {
+  /* colors */
+  /* primary */
+  --pink-100: #ffd1e0;
+  --pink-200: #ff9ebe;
+  --pink-300: #ff6b9c;
+  --pink-400: #ff3388;
+  --pink-500: #ff0558;
+  --pink-600: #d10045;
+
+  --pink-700: #9e0034;
+  --pink-800: #6b0024;
+  --pink-900: #380013;
+
+  /* secondary */
+  --green-100: #feffff;
+  --green-200: #d2f6f8;
+  --green-300: #a6edf1;
+  --green-400: #7ae4ea;
+  --green-500: #4edce3;
+  --green-600: #23d2db;
+  --green-700: #1ca8af;
+  --green-800: #157e83;
+  --green-900: #0e5457;
+
+  /* neutral */
+  --neutral-50: #f5f5f5;
+  --neutral-100: #eef0f1;
+  --neutral-200: #d1d8db;
+  --neutral-300: #b4bfc5;
+  --neutral-400: #97a6af;
+  --neutral-500: #7a8e99;
+  --neutral-600: #62747e;
+  --neutral-700: #4b5a62;
+  --neutral-800: #353f45;
+  --neutral-900: #1f2528;
+
+  /* semantic */
+  --error-default: #ff4d4d;
+  --error-bg: #ffe5e5;
+  --error-text: #b34d4d;
+  --warning-default: #ff9933;
+  --warning-bg: #fff2e5;
+  --warning-text: #f2800d;
+  --success-default: #4caf50;
+  --success-bg: #eaf6eb;
+  --sucesss-text: #3d8b40;
+  --accent-default: #e61e60;
+  --accent-soft: #f07aa1;
+  --accent-text: #bc154c;
+  --caution-default: #ffe91d;
+  --caution-bg: #fffacf;
+  --caution-text: #000;
+  --info-default: #3184df;
+  --info-bg: #e2edfa;
+  --info-text: #175293;
+
+  /* spacing */
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+
+  /* font size */
+  --size-xxs: 8px;
+  --size-xs: 10px;
+  --size-sm: 12px;
+  --size-md: 16px;
+  --size-lg: 18px;
+  --size-xl: 20px;
+  --size-2xl: 22px;
+  --size-2xl: 24px;
+  --size-3xl: 26px;
+  --size-4xl: 28px;
+  --size-5xl: 30px;
+  --size-6xl: 32px;
+
+  /* System Token */
+  /* Background */
+  --color-bg-primary: var(--gray-50);
+  --color-bg-inverse: var(--gray-900);
+
+  /* Text */
+  --color-text-primary: var(--gray-900);
+  --color-text-inverse: var(--gray-50);
+
+  /* responsive */
+  /* layout spacing */
+  --layout-padding-sm: 16px;
+  --layout-padding-md: 24px;
+
+  /* container */
+  --container-max: 1280px;
+}
+
 /* css 리셋 */
 
 * {
@@ -10,9 +108,9 @@ html {
 }
 body {
   overflow-x: hidden;
-  font-size: 16px;
-  color: black;
-  background-color: #fff;
+  font-size: var(--size-md);
+  color: var(--caution-text);
+  background-color: var(--color-bg-primary);
 }
 ul,
 li {
@@ -26,4 +124,38 @@ a {
 img {
   border: 0;
   vertical-align: middle;
+}
+/* Component Token */
+/* Layout */
+.layout {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.outlet {
+  position: relative;
+  width: 100%;
+  max-width: var(--container-max);
+  flex: 1;
+  background-color: #d4d4d4;
+}
+
+@media screen and (min-width: 320px) {
+  .layout {
+    padding: var(--layout-padding-sm);
+  }
+}
+@media screen and (min-width: 768px) {
+  .layout {
+    padding: var(--layout-padding-md);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .layout {
+    padding: 0;
+  }
 }
