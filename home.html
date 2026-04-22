@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>홈 화면</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+    />
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <section class="home">
+      <div class="status-bar">
+        <img src="assets/icons/Status Bar.svg" alt="" />
+      </div>
+      <header class="home-header">
+        <h1 class="home-title">홈</h1>
+        <button type="button" class="alarm-btn">
+          <img src="assets/icons/bell.png" alt="알림" />
+        </button>
+      </header>
+
+      <main class="home-main">
+        <section class="hero-banner">
+          <img
+            src="assets/icons/blurgosul.png"
+            alt="블러고슬"
+            class="hero-banner-image"
+          />
+          <div class="hero-banner-content">
+            <img src="assets/icons/gosul.png" alt="고슬" class="hero-poster" />
+            <div class="hero-text">
+              <h2 class="hero-title">프로젝트 헤일메리</h2>
+              <p class="hero-desc">
+                평가함
+                <img src="assets/icons/star.svg" alt="" class="star-icon" /> 5.0
+                · SF· 미국
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="quick-menu">
+          <button type="button" class="quick-item recommend btn">
+            <img src="assets/icons/recommend.svg" alt="" class="quick-icon" />
+            <span>영화추천</span>
+          </button>
+
+          <button type="button" class="quick-item upcoming-btn">
+            <img src="assets/icons/calendar.svg" alt="" class="quick-icon" />
+            <span>개봉예정</span>
+          </button>
+
+          <button type="button" class="quick-item community-btn">
+            <img src="assets/icons/bubble-fill.svg" alt="" class="quick-icon" />
+            <span>커뮤니티</span>
+          </button>
+
+          <button type="button" class="quick-item news-btn">
+            <img src="assets/icons/news.svg" alt="" class="quick-icon" />
+            <span>영화소식</span>
+          </button>
+        </section>
+      </main>
+    </section>
+  </body>
+</html>
