@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>추천</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+    />
+  </head>
+  <body>
+    <section class="recommend-page">
+      <div class="status-bar">
+        <img src="assets/icons/Status Bar.svg" alt="" />
+      </div>
+      <header class="home-header">
+        <h1 class="home-title">홈</h1>
+        <button type="button" class="alarm-btn">
+          <img src="assets/icons/bell.png" alt="알림" />
+        </button>
+      </header>
+
+      <div class="rec-header">
+        <button type="button" class="back-btn">
+          <img src="assets/icons/arrow-left.svg" alt="" class="back-btn-img" />
+        </button>
+        <h1>추천</h1>
+      </div>
+      <div class="rec-tabs">
+        <button type="button" class="tab-active caption">영화</button>
+        <button type="button" class="tab caption">시리즈</button>
+      </div>
+      <div class="rec-filter">
+        <button type="button">
+          나의 구독
+          <img src="assets/icons/chevron-down.svg" alt="" class="down-btn" />
+        </button>
+        <button type="button">
+          태그
+          <img src="assets/icons/chevron-down.svg" alt="" class="down-btn" />
+        </button>
+      </div>
+      <label class="rec-toggle">
+        <input type="checkbox" />
+        <span class="toggle-ui"></span>
+        <span class="toggle-text sm">구독 중인 작품만 보기</span>
+      </label>
+      <h2 class="rec-title">은진 님이 놓쳐선 안 될 강력 추천 작품들!</h2>
+
+      <div class="rec-list">
+        <article class="rec-card">
+          <div class="rec-thumb">
+            <img src="assets/icons/colin.png" alt="이니셰린" />
+            <div class="score-badge">
+              <span class="sm">예상</span>
+              <span class="sm">4.9</span>
+            </div>
+          </div>
+
+          <div class="rec-card-body">
+            <div>
+              <h3>이니셰린의 밴시</h3>
+              <p class="xs">2023·아일랜드</p>
+            </div>
+            <button type="button" class="bookmark-btn">
+              <img src="assets/icons/mark.svg" alt="위시" />
+            </button>
+          </div>
+        </article>
+
+        <article class="rec-card">
+          <div class="rec-thumb">
+            <img src="assets/icons/metal.png" alt="사운드 오브 메탈" />
+            <div class="score-badge">
+              <span class="sm">예상</span>
+              <span class="sm">4.9</span>
+            </div>
+          </div>
+
+          <div class="rec-card-body">
+            <div>
+            <h3>사운드 오브 메탈</h3>
+            <p class="xs">2019·미국</p>
+          </div>
+          <button type="button" class="bookmark-btn">
+            <img src="assets/icons/mark.svg" alt="위시" />
+          </button>
+</div>
+          <ul class="reason-list sm">
+            <li>
+              <img src="assets/icons/user-10.svg" alt="" class="user-icon" />
+              <span>취향이 비슷한 이은진님이 높은 점수를 줬어요.</span>
+            </li>
+            <li>
+              <img src="assets/icons/tar.png" alt="" class="user-icon" />
+              <span>재밌게 보신 'TAR 타르'와 비슷해요.</span>
+            </li>
+            <li>
+              <span class="reason-icon-tag">#</span>
+              <span>선호하는 태그 #연기력</span>
+            </li>
+          </ul>
+        </article>
+      
+
+      <div class="tag-cta">
+        <p>태그를 설정하여 추천을 더 받으실 수 있어요.</p>
+        <button type="button">태그 설정</button>
+      </div>
+    </section>
+  </body>
+</html>
