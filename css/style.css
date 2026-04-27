@@ -301,10 +301,11 @@ button:focus-visible {
   object-fit: contain;
   display: block;
 }
-.hero-text {
+.hero-login-text {
+  margin: 0;
+  width: 100%;
   text-align: center;
   color: var(--neutral-100);
-  margin-top: -10px;
 }
 
 .login-actions {
