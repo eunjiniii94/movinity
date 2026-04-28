@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>영화상세</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+    />
+  </head>
+  <body>
+    <section class="detail-page">
+      <section class="detail-hero">
+        <img src="assets/icons/darklam.png" alt="" class="hero-bg" />
+
+        <div class="hero-top">
+          <img src="assets/icons/opstatusbar.svg" alt="" class="status-bar" />
+          <div class="hero-nav">
+            <button type="button" class="back-btn">
+              <img src="assets/icons/white left.svg" alt="뒤로가기" />
+            </button>
+
+            <button type="button" class="share-btn">
+              <img src="assets/icons/share.svg" alt="공유하기" />
+            </button>
+          </div>
+        </div>
+        <div class="hero-info">
+          <img src="assets/icons/lam.png" alt="램 포스터" class="poster-img" />
+          <div class="movie-title-box">
+            <h1>램</h1>
+            <p class="xs">2021·아이슬란드/스웨덴/폴란드·드라마/공포/미스터리</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="rating-section">
+        <p>
+          <span class="expected sm"
+            >예상
+            <img
+              src="assets/icons/pinkstar.svg"
+              alt=""
+              class="rating-star"
+            />3.2</span
+          >
+          <span class="average sm"
+            >평균
+            <img
+              src="assets/icons/graystar.svg"
+              alt=""
+              class="rating-star"
+            />2.9 (1,000)</span
+          >
+        </p>
+
+        <div class="star-box">
+          <span class="xs">이 영화는 어떠셨나요?</span>
+
+          <div class="stars">
+            <img src="assets/icons/5star.svg" alt="" />
+            <img src="assets/icons/5star.svg" alt="" />
+            <img src="assets/icons/5star.svg" alt="" />
+            <img src="assets/icons/5star.svg" alt="" />
+            <img src="assets/icons/5star.svg" alt="" />
+          </div>
+        </div>
+        <ul class="action-menu">
+          <li>
+            <button type="button" class="action-btn wishlist-btn">
+              <img src="assets/icons/mark.svg" alt="위시" class="action-icon" />
+              <span class="xs">위시리스트</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="action-btn comment-btn">
+              <img
+                src="assets/icons/pen.svg"
+                alt="한줄코멘트"
+                class="action-icon"
+              />
+              <span class="xs">한줄 코멘트</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="action-btn watching-btn">
+              <img src="assets/icons/eye.svg" alt="" class="action-icon" />
+              <span class="xs">보는 중</span>
+            </button>
+          </li>
+
+          <li>
+            <button type="button" class="action-btn more-btn">
+              <img src="assets/icons/more.svg" alt="" class="action-icon" />
+              <span class="xs">더보기</span>
+            </button>
+          </li>
+        </ul>
+      </section>
+
+      <section class="detail-section reason-section">
+        <h2 class="caption">내가 좋아할 이유</h2>
+
+        <div class="reason-item">
+          <img src="assets/icons/viva.svg" alt="" />
+          <p>재밌게 보신 '비바리움'과 비슷해요</p>
+        </div>
+      </section>
+
+      <section class="detail-section info-section">
+        <h2 class="caption">기본정보</h2>
+        <p class="desc sm">
+          눈 폭풍이 휘몰아치던 크리스마스 날 밤 이후 양 목장에서 태어난
+          신비한<br />
+          아이를 선물받은 '마리아' 부부에게 닥친 예측할 수 없는 A24 호러.
+        </p>
+
+        <ul class="info-list sm">
+          <li>
+            <span>감독</span>
+
+            <span>발디마 요한손</span>
+          </li>
+          <li>
+            <span>상영시간</span>
+
+            <span>1시간 46분</span>
+          </li>
+          <li>
+            <span>연령 등급</span>
+
+            <span>15세</span>
+          </li>
+
+          <li>
+            <span>장르</span>
+
+            <span>드라마, 공포, 미스터리</span>
+          </li>
+
+          <li>
+            <span>제작국가</span>
+
+            <span>아이슬란드, 스웨덴, 폴란드</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="detail-section watch-section">
+        <h2 class="caption">감상 가능한 곳</h2>
+
+        <div class="watch-tab">
+          <button type="button" class="active sm">구독 1</button>
+        </div>
+
+        <div class="watch-platform">
+          <div class="platform-info">
+            <img
+              src="assets/icons/netflix.svg"
+              alt="넷플"
+              class="platform-icon"
+            />
+            <span class="caption">넷플릭스</span>
+          </div>
+          <button type="button" class="comming-btn sm">공개 예정</button>
+        </div>
+
+        <p class="notice-text xs">
+          본 정보의 최신성을 보장하지 않으므로 정확한 정보는 해당 플랫폼에서
+          확인해 주세요.
+        </p>
+
+        <button type="button" class="report-btn xs">
+          잘못된 정보가 있나요?
+        </button>
+      </section>
+
+      <section class="detail-section cast-section">
+        <h2 class="caption">출연/제작</h2>
+        <ul class="cast-list">
+          <li>
+            <img src="assets/icons/val.png" alt="" class="cast-icon" />
+            <div class="cast-info">
+              <span>발디마 요한손</span>
+              <span>감독</span>
+            </div>
+            <img
+              src="assets/icons/Chevron right.svg"
+              alt=""
+              class="cast-more-icon"
+            />
+          </li>
+
+          <li>
+            <img src="assets/icons/numi.png" alt="" class="cast-icon" />
+            <div class="cast-info">
+              <span>누미 라파스</span>
+              <span>주연 | 마리아</span>
+            </div>
+            <img
+              src="assets/icons/Chevron right.svg"
+              alt=""
+              class="cast-more-icon"
+            />
+          </li>
+
+          <li>
+            <img src="assets/icons/yo.png" alt="" class="cast-icon" />
+            <div class="cast-info">
+              <span>힐미르 스나에르 구오나손</span>
+              <span>주연 | 잉그바르</span>
+            </div>
+            <img
+              src="assets/icons/Chevron right.svg"
+              alt=""
+              class="cast-more-icon"
+            />
+          </li>
+        </ul>
+
+        <button type="button" class="more-view-btn">모두 보기</button>
+      </section>
+    </section>
+    <div class="bottom-bar">
+      <img src="assets/icons/hadanvar.svg" alt="" class="bottom-bar-image" />
+    </div>
+  </body>
+</html>
