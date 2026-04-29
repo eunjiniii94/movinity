@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>마이페이지</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+    />
+  </head>
+  <body>
+    <section class="mypage">
+      <div class="status-bar">
+        <img src="assets/icons/statusbar.svg" alt="" class="status-bar" />
+      </div>
+
+      <header class="mypage-header">
+        <div class="mypage-header-icons">
+          <button type="button" aria-label="알림">
+            <img src="assets/icons/bell.png" alt="" />
+          </button>
+          <button type="button" aria-label="설정">
+            <img src="assets/icons/setting.png" alt="" />
+          </button>
+        </div>
+      </header>
+      <section class="profile-section">
+        <img src="assets/icons/eunjin.svg" alt="" class="profile-img" />
+        <div class="profile-name-row">
+          <span>은진</span>
+          <span class="logo-icon">
+            <img src="assets/icons/logo3.svg" alt="" />
+          </span>
+        </div>
+
+        <p class="profile-follow">
+          팔로워 <span class="follow-num">154</span>
+          <span class="divider">|</span> 팔로잉
+          <span class="follow-num">56</span>
+        </p>
+
+        <div class="profile-actions">
+          <button type="button" class="sm">프로필 수정</button>
+          <button type="button" class="sm">프로필 공유</button>
+          <button type="button" class="profile-actions-icon">
+            <img src="assets/icons/userplus.svg" alt="" />
+          </button>
+        </div>
+
+        <ul class="profile-stats">
+          <li>
+            <span class="stat-num">752</span>
+            <span>평가</span>
+          </li>
+          <li>
+            <span class="stat-num">152</span>
+            <span>코멘트</span>
+          </li>
+          <li>
+            <span class="stat-num">1359</span>
+            <span>컬렉션</span>
+          </li>
+        </ul>
+      </section>
+      <section class="mypage-section library-section">
+        <h2>보관함</h2>
+
+        <ul class="library-list">
+          <li>
+            <button type="button">
+              <span class="library-lcon">
+                <img src="assets/icons/movie.svg" alt="" />
+              </span>
+              <span>영화</span>
+            </button>
+          </li>
+
+          <li>
+            <button type="button">
+              <span class="library-lcon">
+                <img src="assets/icons/tv.svg" alt="" />
+              </span>
+              <span>시리즈</span>
+            </button>
+          </li>
+          <li>
+            <button type="button">
+              <span class="library-lcon">
+                <img src="assets/icons/note.svg" alt="" />
+              </span>
+              <span>후기</span>
+            </button>
+          </li>
+        </ul>
+      </section>
+      <section class="mypage-section subscribe-section">
+        <div>
+          <h2>구독 중인 서비스</h2>
+          <p class="xs">구독 중인 서비스 작품을 추천할게요.</p>
+        </div>
+        <button type="button" class="xs">등록하기</button>
+      </section>
+
+      <section class="mypage-section calendar-section">
+        <div class="calendar-title">
+          <button type="button">
+            <img src="assets/icons/chevron-left.svg" alt="" />
+          </button>
+          <h2>4월 캘린더</h2>
+          <button type="button">
+            <img src="assets/icons/chevron-right.svg" alt="" />
+          </button>
+        </div>
+        <img
+          src="assets/icons/big-calendar.svg"
+          alt="4월 캘린더"
+          class="calendar-img"
+        />
+        <a href="#" class="calendar-more">
+          캘린더 전체보기
+          <img src="assets/icons/chevron-right.svg" alt="" />
+        </a>
+      </section>
+      <section class="mypage-section taste-section">
+        <h2>취향 분석</h2>
+        <span class="taste-tag xxs">#별점분포</span>
+        <p class="sm">남들보다 별점을 조금 후하게 주는 ‘인심파’.</p>
+
+        <img src="assets/icons/graph.svg" alt="그래프" class="taste-graph" />
+
+        <a href="#" class="analysis-btn sm">
+          모든 분석 보기
+          <img src="assets/icons/chevron-right.svg" alt="" />
+        </a>
+      </section>
+      <section class="mypage-section like-section">
+        <h2>좋아요</h2>
+
+        <ul class="like-list">
+          <li>
+            <a href="#">
+              <span>좋아한 인물 <span class="like-count">0</span> </span>
+              <img src="assets/icons/chevron-right.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span>좋아한 컬렉션 <span class="like-count">0</span> </span>
+              <img src="assets/icons/chevron-right.svg" alt="" />
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span>좋아한 코멘트 <span class="like-count">0</span> </span>
+              <img src="assets/icons/chevron-right.svg" alt="" />
+            </a>
+          </li>
+        </ul>
+      </section>
+    </section>
+    <nav class="bottom-nav">
+      <a href="#" class="bottom-nav-item">
+        <img src="assets/icons/calendar-icon.svg" alt="" />
+        <span>캘린더</span>
+      </a>
+
+      <a href="recommend.html" class="bottom-nav-item">
+        <img src="assets/icons/search-icon.svg" alt="" />
+        <span>탐색</span>
+      </a>
+
+      <a href="home.html" class="bottom-nav-item">
+        <img src="assets/icons/home-icon.svg" alt="" />
+        <span>홈</span>
+      </a>
+
+      <a href="community.html" class="bottom-nav-item">
+        <img src="assets/icons/text-bubble-icon.svg" alt="" />
+        <span>커뮤니티</span>
+      </a>
+
+      <a href="my.html" class="bottom-nav-item">
+        <img src="assets/icons/profile-icon.svg" alt="" />
+        <span>마이</span>
+      </a>
+    </nav>
+  </body>
+</html>

@@ -15,24 +15,20 @@
   <body>
     <section class="recommend-page">
       <div class="status-bar">
-        <img src="assets/icons/Status Bar.svg" alt="" />
+        
+        <img src="assets/icons/statusbar.svg" alt="" />
       </div>
-      <header class="home-header">
-        <h1 class="home-title">홈</h1>
-        <button type="button" class="alarm-btn">
-          <img src="assets/icons/bell.png" alt="알림" />
-        </button>
-      </header>
+      
 
       <div class="rec-header">
-        <button type="button" class="back-btn">
+       <a href="home.html" class="back-btn" aria-label="뒤로가기">
           <img src="assets/icons/arrow-left.svg" alt="" class="back-btn-img" />
-        </button>
+        </a>
         <h1>추천</h1>
       </div>
       <div class="rec-tabs">
-        <button type="button" class="tab-active caption">영화</button>
-        <button type="button" class="tab caption">시리즈</button>
+        <button type="button" class="rec-tab active caption  ">영화</button>
+        <button type="button" class="rec-tab caption">시리즈</button>
       </div>
       <div class="rec-filter">
         <button type="button">
@@ -112,8 +108,31 @@
         <button type="button">태그 설정</button>
       </div>
     </section>
-     <div class="bottom-bar">
-      <img src="assets/icons/hadanvar.svg" alt="" class="bottom-bar-image">
-    </div>
+    <nav class="bottom-nav">
+      <a href="#" class="bottom-nav-item">
+        <img src="assets/icons/calendar-icon.svg" alt="" />
+        <span>캘린더</span>
+      </a>
+
+      <a href="recommend.html" class="bottom-nav-item">
+        <img src="assets/icons/search-icon.svg" alt="" />
+        <span>탐색</span>
+      </a>
+
+      <a href="home.html" class="bottom-nav-item">
+        <img src="assets/icons/home-icon.svg" alt="" />
+        <span>홈</span>
+      </a>
+
+      <a href="community.html" class="bottom-nav-item">
+        <img src="assets/icons/text-bubble-icon.svg" alt="" />
+        <span>커뮤니티</span>
+      </a>
+
+      <a href="my.html" class="bottom-nav-item">
+        <img src="assets/icons/profile-icon.svg" alt="" />
+        <span>마이</span>
+      </a>
+    </nav>
   </body>
 </html>
