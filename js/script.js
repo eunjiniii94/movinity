@@ -6,6 +6,15 @@ if (signupBtn) {
   });
 }
 
+const submitBtn = document.querySelector(".submit-btn");
+
+if (submitBtn) {
+  submitBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    location.href = "./home.html";
+  });
+}
+
 const emailInput = document.querySelector("#email");
 const passwordInput = document.querySelector("#password");
 const passwordCheckInput = document.querySelector("#password-check");
@@ -22,7 +31,7 @@ const phoneMessage = document.querySelector(".phone-message");
 
 const sendBtn = document.querySelector(".send-btn");
 const checkBtn = document.querySelector(".check-btn");
-const submitBtn = document.querySelector(".submit-btn");
+
 const signupForm = document.querySelector(".signup-form");
 
 const inputs = document.querySelectorAll(".form-input");
@@ -105,16 +114,16 @@ function updateButtonState() {
     codeValue !== "";
 
   // 버튼 활성화
-  sendBtn.disabled = !isPhoneValid;
-  checkBtn.disabled = codeValue === "";
-  submitBtn.disabled = !(
-    isFilled &&
-    isEmailValid &&
-    isPasswordValid &&
-    isPasswordMatch &&
-    isBirthValid &&
-    isPhoneValid
-  );
+  // sendBtn.disabled = !isPhoneValid;
+  // checkBtn.disabled = codeValue === "";
+  // submitBtn.disabled = !(
+  //   isFilled &&
+  //   isEmailValid &&
+  //   isPasswordValid &&
+  //   isPasswordMatch &&
+  //   isBirthValid &&
+  //   isPhoneValid
+  // );
 
   // 이메일 메세지
   if (emailValue === "") {
@@ -163,19 +172,19 @@ function updateButtonState() {
   }
 }
 
-// 입력할 때마다 검사
-inputs.forEach((input) => {
-  input.addEventListener("input", updateButtonState);
-});
+// // 입력할 때마다 검사
+// inputs.forEach((input) => {
+//   input.addEventListener("input", updateButtonState);
+// });
 
-// 제출 시 이동
-signupForm.addEventListener("submit", (e) => {
-  e.preventDefault();
+// // 제출 시 이동
+// signupForm.addEventListener("submit", (e) => {
+//   e.preventDefault();
 
-  if (!submitBtn.disabled) {
-    location.href = "./index.html";
-  }
-});
+//   if (!submitBtn.disabled) {
+//     location.href = "./home.html";
+//   }
+// });
 
 // 처음 상태 한 번 실행
 updateButtonState();
