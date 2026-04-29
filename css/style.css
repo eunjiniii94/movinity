@@ -366,17 +366,6 @@ button:focus-visible {
   text-align: center;
 }
 
-.status-bar {
-  width: 100%;
-  /* align-self: stretch; */
-  padding: 0 14px;
-}
-
-.status-bar img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
 .onboarding-logo {
   width: 234px;
   height: auto;
@@ -557,14 +546,14 @@ button:focus-visible {
   padding-bottom: 72px;
   background: var(--green-100);
 }
-.status-bar {
+/* .status-bar {
   padding: 0;
 }
 .status-bar img {
   width: 100%;
   display: block;
   height: auto;
-}
+} */
 
 .home-header {
   position: relative;
@@ -1456,10 +1445,10 @@ button:focus-visible {
   left: 0px;
   right: 0px;
 }
-.status-bar {
+/* .status-bar {
   width: 100%;
   display: block;
-}
+} */
 .hero-nav {
   padding: 0 15px;
   display: flex;
