@@ -1,11 +1,15 @@
-# 영화 커뮤앱
+## 프로젝트 개요
 
-[노션에서 확인하기](https://handsome-glade-484.notion.site/UX-UI-a30ecbb9b9f7835790eb0191478bc718?source=copy_link)
+무비니티는 영화 감상 후 리뷰와 취향을 공유할 수 있는 영화 커뮤니티 앱 디자인 프로젝트입니다.
 
--<a href="https://handsome-glade-484.notion.site/UX-UI-a30ecbb9b9f7835790eb0191478bc718?source=copy_link"target="blank">
-노션에서 보기 </a>
+사용자가 영화를 발견하고, 감상을 기록하며, 다른 사용자와 의견을 나눌 수 있도록  
+홈, 추천, 커뮤니티, 기록/보관함, 마이페이지 중심의 화면 흐름을 설계했습니다.
 
--다른데서도 작업하고 싶으면
-git clone 하고 레파지토리에서 주소복사해서 오른쪽 누르고 ./
+영화 탐색 → 감상 기록 → 커뮤니티 소통으로 이어지는 사용자 경험을 목표로 하였으며,  
+모바일 환경에서 편하게 사용할 수 있도록 직관적인 구조와 명확한 UI 구성을 중점으로 디자인했습니다.
 
-[피그마] (https://www.figma.com/proto/xouqeLCEyF588mumJH0aZA/%EC%BD%94%EB%94%A9?node-id=728-2084&p=f&t=juDeVImyHcFBFhNV-0&scaling=contain&content-scaling=fixed&page-id=829%3A3)
+---
+
+## 작업 프로세스
+
+[작업 프로세스 보러가기](https://www.figma.com/proto/xouqeLCEyF588mumJH0aZA/%EC%BD%94%EB%94%A9?page-id=723%3A2082&node-id=849-51&t=BM6QWdqoOs2ndmc8-0&scaling=min-zoom&content-scaling=fixed)
